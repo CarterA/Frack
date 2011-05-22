@@ -41,13 +41,24 @@ Fraction frackify(double input) {
 }
 
 int main(int argc, const char * argv[]) {
-		
-	double input = atof(argv[1]);
+	
+	double input;
+	
+	if (argc == 1) {
+		scanf("%lf", &input);
+	}
+	else if (argc == 2) {
+		input = atof(argv[1]);
+	}
+	else {
+		printf("Error: too many arguments.");
+		return EXIT_FAILURE;
+	}
 	
 	Fraction result = frackify(input);
 	
 	printf("%d/%d\n", result.numerator, result.denominator);
 	
-    return 0;
-}
+	return EXIT_SUCCESS;
 
+}
