@@ -7,6 +7,7 @@
 //  http://homepage.smc.edu/kennedy_john/DEC2FRAC.PDF
 //
 //  Created by Carter Allen on 5/21/11.
+//  Modified and perfected by Zach Fisher.
 //  Copyright 2011 Opt-6 Products, LLC. All rights reserved.
 //
 
