@@ -1,7 +1,7 @@
 all: frack
 
 frack: frack.c
-	cc -o frack frack.c
+	cc -lm -o frack frack.c
 
 clean:
 	rm ./frack
